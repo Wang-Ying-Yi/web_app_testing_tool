@@ -1,0 +1,53 @@
+{
+    "_comment": "The sample report provides users with a clear example of the final output, serves as a reference for understanding vulnerability results, and helps developers customize or extend the tool by illustrating the data structure it generates.",
+    "target": "http://example.com",
+    "vulnerabilities": {
+        "sql_injection": {
+            "found": true,
+            "details": [
+                {
+                    "payload": "' OR '1'='1",
+                    "description": "The application is vulnerable to SQL injection through unsanitized input in the 'id' parameter."
+                },
+                {
+                    "payload": "admin' --",
+                    "description": "A login bypass was successful using the 'admin' -- payload, indicating an SQL injection vulnerability in the authentication mechanism."
+                }
+            ]
+        },
+        "xss": {
+            "found": true,
+            "details": [
+                {
+                    "payload": "<script>alert('XSS')</script>",
+                    "description": "The application reflects user input in the response without proper sanitization, making it vulnerable to Cross-Site Scripting (XSS)."
+                }
+            ]
+        },
+        "brute_force": {
+            "found": false,
+            "details": []
+        },
+        "http_headers": {
+            "missing_headers": [
+                {
+                    "header": "Content-Security-Policy",
+                    "description": "The application does not have a Content-Security-Policy header, increasing the risk of XSS attacks."
+                },
+                {
+                    "header": "X-Frame-Options",
+                    "description": "The application is missing the X-Frame-Options header, making it vulnerable to clickjacking attacks."
+                }
+            ]
+        },
+        "directory_traversal": {
+            "found": true,
+            "details": [
+                {
+                    "payload": "../../etc/passwd",
+                    "description": "Directory traversal was successful, exposing the contents of sensitive system files."
+                }
+            ]
+        }
+    }
+}
