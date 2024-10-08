@@ -1,0 +1,27 @@
+Here's a sample `requirements.txt` file for your **Web Application Security Testing Tool**. This file lists the Python packages your project depends on, and users can install them using `pip`:
+
+### `requirements.txt`
+
+```
+requests==2.28.1
+beautifulsoup4==4.11.1
+lxml==4.9.2  # Optional: If you're using BeautifulSoup with the lxml parser for faster processing
+argparse==1.4.0
+``` 
+
+### Explanation of the Dependencies:
+- **`requests`**: Used for making HTTP requests to web applications.
+- **`beautifulsoup4`**: A library for parsing HTML and XML, helpful for analyzing web page structure in XSS and other vulnerability checks.
+- **`lxml`**: An optional dependency used by BeautifulSoup for faster HTML parsing.
+- **`argparse`**: Helps with command-line argument parsing.
+
+### Install Instructions:
+
+After creating the `requirements.txt`, users can install the dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
+If you have additional dependencies (such as `subprocess`, although it's built-in in Python), add them to this list.
+
+Let me know if you need help adding other libraries or additional functionalities to your project!
