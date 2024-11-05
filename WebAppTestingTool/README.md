@@ -1,5 +1,3 @@
-You're welcome! Here's a sample `README.md` file for your **Web Application Security Testing Tool**. You can modify it based on the exact details of your project.
-
 ### `README.md`
 
 ```markdown
