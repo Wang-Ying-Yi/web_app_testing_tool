@@ -93,10 +93,6 @@ pip install -r requirements.txt
 
 **Use this tool responsibly.** This tool is meant for educational purposes and testing on web applications where you have explicit permission. Unauthorized testing on web applications could be illegal and violate the terms of service.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
 ## Contributing
 
 If you'd like to contribute to this project, feel free to open a pull request or submit an issue. Contributions are always welcome!
