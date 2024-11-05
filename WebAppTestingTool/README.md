@@ -1,17 +1,14 @@
-### `README.md`
-
-```markdown
 # Web Application Security Testing Tool
 
-This tool is designed to test web applications for common vulnerabilities like **SQL Injection**, **Cross-Site Scripting (XSS)**, **brute force attacks**, and **directory traversal**, as well as check for the presence of important **HTTP security headers**. It can be used by security professionals and developers to identify security issues in their web applications.
+This tool is designed to test web applications for common vulnerabilities like SQL Injection, Cross-Site Scripting (XSS), brute force attacks, and directory traversal, as well as check for the presence of important HTTP security headers. Security professionals and developers can use it to identify security issues in their web applications.
 
 ## Features
 
-- **SQL Injection Detection**: Tests if a web application is vulnerable to SQL injection attacks by using common payloads.
-- **Cross-Site Scripting (XSS) Detection**: Detects XSS vulnerabilities by injecting malicious JavaScript into form fields and URLs.
-- **Brute Force Attack Simulation**: Attempts to break into web applications by brute-forcing login forms with a list of username-password combinations.
-- **Directory Traversal Vulnerability Testing**: Checks for directory traversal issues by trying to access sensitive files on the server.
-- **HTTP Header Security Check**: Ensures that important security headers like `Content-Security-Policy` and `X-Frame-Options` are implemented.
+- SQL Injection Detection: Tests if a web application is vulnerable to SQL injection attacks by using common payloads.
+- Cross-Site Scripting (XSS) Detection: Detects XSS vulnerabilities by injecting malicious JavaScript into form fields and URLs.
+- Brute Force Attack Simulation: Attempts to break into web applications by brute-forcing login forms with a list of username-password combinations.
+- Directory Traversal Vulnerability Testing: Checks for directory traversal issues by trying to access sensitive files on the server.
+- HTTP Header Security Check: Ensures that important security headers like `Content-Security-Policy` and `X-Frame-Options` are implemented.
 
 ## Installation
 
