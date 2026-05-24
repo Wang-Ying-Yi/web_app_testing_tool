@@ -6,7 +6,7 @@ import subprocess
 from datetime import datetime
 
 # Target your local LM Studio Instance running on your host adapter
-LM_STUDIO_URL = "http://192.168.56.1:1234/v1/chat/completions"
+LM_STUDIO_URL = "http://LLM_server_IP:1234/v1/chat/completions"
 MODEL_SIGNATURE = "google/gemma-4-e4b"
 
 def query_local_lm_studio(prompt):
