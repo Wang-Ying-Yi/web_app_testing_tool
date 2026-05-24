@@ -1,0 +1,8 @@
+# HTTP client for sending payloads and analyzing web application responses
+requests==2.32.3
+
+# HTML and XML parsing for analyzing DOM elements and detecting vulnerabilities (e.g., XSS)
+beautifulsoup4==4.12.3
+
+# Fast, high-performance HTML/XML parser extension utilized by BeautifulSoup
+lxml==5.2.2

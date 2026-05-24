@@ -1,0 +1,9 @@
+{
+    "Weak Form Authentication Credential Brute-Force": {
+        "severity": "Critical",
+        "cvss": 9.8,
+        "details": [
+            "REST API Credential Compromise -> admin@juice-sh.op:admin123"
+        ]
+    }
+}
